@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Portfólio Simples</title>
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <!-- Cabeçalho Principal -->
+  <header>
+    <img src="perfil.jpg" alt="Foto de Abelardo Júnior" width="50" height="50">
+    <h1>Abelardo Júnior</h1>
+    <p><b>Desenvolvedor FullStack</b></p>
+    <!-- Navegação -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <!-- Imagem de Perfil -->
+
+  </header>
+
+
+
+  <!-- Formulário de Contato -->
+  <main>
+    <section>
+      <h2>Contato</h2>
+      <form>
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <br>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        </div>
+        <div>
+          <p>Você gostaria de receber atualizações?</p>
+          <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+          <label for="newsletter">Sim, me inscreva na newsletter</label>
+        </div>
+        <br>
+        <div>
+          <p>Qual é o seu nível de interesse?</p>
+          <input type="radio" id="alto" name="interesse" value="alto">
+          <label for="alto">Alto</label>
+          <input type="radio" id="medio" name="interesse" value="medio">
+          <label for="medio">Médio</label>
+          <input type="radio" id="baixo" name="interesse" value="baixo">
+          <label for="baixo">Baixo</label>
+        </div>
+        <br>
+        <div>
+          <label for="assunto">Assunto:</label>
+          <select id="assunto" name="assunto">
+            <option value="geral">Geral</option>
+            <option value="contratar">Contratar</option>
+            <option value="duvidas">Dúvidas</option>
+            <option value="feedback">Feedback</option>
+          </select>
+        </div>
+        <br>
+
+        <div>
+          <button>Enviar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Você pode me encontrar nas redes sociais:</p>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/abelardo-junior/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/abelardojr0" target="_blank">GitHub</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
